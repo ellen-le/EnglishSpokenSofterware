@@ -1,0 +1,86 @@
+{
+  "at": "2026-11-03T10:59:50.211Z",
+  "environment": "Node host, actual .ets transpiled by installed TypeScript; no device runtime",
+  "results": [
+    {
+      "name": "stable unique scene/task identifiers",
+      "status": "pass"
+    },
+    {
+      "name": "restaurant complete dialogue and exact user evidence",
+      "status": "pass"
+    },
+    {
+      "name": "airport complete dialogue",
+      "status": "pass"
+    },
+    {
+      "name": "campus complete dialogue",
+      "status": "pass"
+    },
+    {
+      "name": "each missing restaurant goal remains missing",
+      "status": "pass"
+    },
+    {
+      "name": "partner words do not count as learner task completion",
+      "status": "pass"
+    },
+    {
+      "name": "negation does not satisfy order",
+      "status": "pass"
+    },
+    {
+      "name": "zero baggage is a valid baggage statement",
+      "status": "pass"
+    },
+    {
+      "name": "unrelated English and Chinese do not satisfy restaurant tasks",
+      "status": "pass"
+    },
+    {
+      "name": "empty and oversized inputs rejected without mutating session",
+      "status": "pass"
+    },
+    {
+      "name": "finished/cancelled sessions cannot accept input or reports",
+      "status": "pass"
+    },
+    {
+      "name": "scene mismatch rejected",
+      "status": "pass"
+    },
+    {
+      "name": "turn cap enforced and report still available",
+      "status": "pass"
+    },
+    {
+      "name": "reports have one to three actionable suggestions and no pronunciation score",
+      "status": "pass"
+    },
+    {
+      "name": "repository save is idempotent for a session",
+      "status": "pass"
+    },
+    {
+      "name": "repository rejects mismatched report/session IDs",
+      "status": "pass"
+    },
+    {
+      "name": "repository reload from mock disk and delete",
+      "status": "pass"
+    },
+    {
+      "name": "flush failure is reported and previous in-memory value restored",
+      "status": "pass"
+    },
+    {
+      "name": "malformed data is rejected without silent overwrite",
+      "status": "pass"
+    },
+    {
+      "name": "settings survive mock reload and history clearing does not delete settings",
+      "status": "pass"
+    }
+  ]
+}
